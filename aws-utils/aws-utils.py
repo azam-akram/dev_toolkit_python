@@ -64,7 +64,7 @@ def publishEventOnSNSTopic():
   
     print(response)
 
-def post_http_request(materialId):
+def post_http_request():
     payload = {
         "id": 1,
         "deadline": "2022-12-31T00:00:00Z",
@@ -78,5 +78,7 @@ def aws_utils():
     copyFileToS3Bucket()
     
     publishEventOnSNSTopic()
+
+    post_http_request()
     
 aws_utils()
