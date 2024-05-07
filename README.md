@@ -20,6 +20,9 @@ To use the utilities and modules in this repository, you'll need to have Python 
 pip install utils-python
 ```
 
+## AWS S3 Utility
+This [class](https://github.com/azam-akram/utils-python/tree/main/aws-utils/s3-utils) consists of different python methods to interacts with aws s3 buckets. For more information please follow this article: https://solutiontoolkit.com/2024/05/working-with-aws-s3-using-python/
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code in this repository as long as you retain the original license terms. Refer to the [LICENSE](LICENSE) file for more information.
