@@ -51,5 +51,4 @@ if __name__ == "__main__":
     http_client = DemoHTTPClient()
     http_client.configs = http_client.load_config('/work/python/utils-python/http-utils/configs/configs.json')
 
-    print(http_client.configs)
     http_client.make_get_request()
